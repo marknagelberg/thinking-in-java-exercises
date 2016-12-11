@@ -1,6 +1,6 @@
-package package1;
+package pkg.package1;
 
-interface ClassOne {
+public interface ClassOne {
 
     void method1();
     void method2();
