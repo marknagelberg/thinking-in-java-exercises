@@ -1,7 +1,7 @@
 interface Rodent {
 
-    void nibble();
-    void run();
+    public void nibble();
+    public void run();
 }
 
 class Mouse implements Rodent {
@@ -19,6 +19,24 @@ class Gerbil implements Rodent {
     }
     public void nibble() {
         System.out.println("Nibble on Gerbil food");
+    }
+
+    public void run() {
+        System.out.println("Mouse run");
+    }
+
+    public void crawl() {
+        System.out.println("Mouse crawl");
+    }
+}
+
+class Gerbil implements Rodent {
+    public void nibble() {
+        System.out.println("Gerbil nibble");
+    }
+
+    public void run() {
+        System.out.println("Gerbil run");
     }
 }
 
